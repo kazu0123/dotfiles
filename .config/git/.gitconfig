@@ -1,0 +1,8 @@
+[user]
+	signingkey = 2BAC66674F0915C0
+	name = kazu0123
+	email = kokubo.kazuki01.23@gmail.com
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg

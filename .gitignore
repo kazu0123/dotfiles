@@ -7,3 +7,5 @@
 !/.bin/**
 !/.config/
 !/.config/**
+
+.DS_Store

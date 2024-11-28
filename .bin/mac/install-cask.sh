@@ -9,3 +9,4 @@ brew install --cask slack
 brew install --cask microsoft-teams
 brew install --cask thunderbird
 brew install --cask gpg-suite
+brew install --cask drawio

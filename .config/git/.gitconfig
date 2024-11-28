@@ -6,3 +6,6 @@
 	gpgsign = true
 [gpg]
 	program = /usr/local/bin/gpg
+[core]
+	fsmonitor = true
+	untrackedcache = true

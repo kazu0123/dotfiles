@@ -9,3 +9,4 @@ ln -s ~/dotfiles/.config/zsh/.zshrc ~/.zshrc
 ln -s /Users/kazuki/dotfiles/.config/VSCode/Code/User/settings.json /Users/kazuki/Library/Application\ Support/Code/User/settings.json
 ln -s /Users/kazuki/dotfiles/.config/VSCode/Code/User/keybindings.json '/Users/kazuki/Library/Application Support/Code/User/keybindings.json'
 ln -s /Users/kazuki/dotfiles/.config/VSCode/Code/User/tasks.json '/Users/kazuki/Library/Application Support/Code/User/tasks.json'
+ln -s ~/dotfiles/.config/colima/.colima ~/.colima

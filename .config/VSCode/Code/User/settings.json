@@ -91,4 +91,5 @@
     "editor.stickyScroll.enabled": false,
     "editor.tabSize": 2,
     "workbench.editor.enablePreview": false,
+    "hediet.vscode-drawio.resizeImages": null,
 }

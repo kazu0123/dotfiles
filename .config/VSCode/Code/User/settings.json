@@ -74,7 +74,10 @@
         "devcontainer",
         "fastapi",
         "Hono",
-        "iconify"
+        "iconify",
+        "ollama",
+        "qwen",
+        "starcoder"
     ],
     "go.toolsManagement.autoUpdate": true,
     "alive.lsp.startCommand": [

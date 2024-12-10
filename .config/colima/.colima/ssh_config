@@ -17,5 +17,5 @@ Host colima
   ControlPath "/Users/kazuki/dotfiles/.config/colima/.colima/_lima/colima/ssh.sock"
   ControlPersist yes
   Hostname 127.0.0.1
-  Port 55245
+  Port 50396
 

@@ -77,7 +77,8 @@
         "iconify",
         "ollama",
         "qwen",
-        "starcoder"
+        "starcoder",
+        "termux"
     ],
     "go.toolsManagement.autoUpdate": true,
     "alive.lsp.startCommand": [

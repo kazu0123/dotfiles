@@ -1,7 +1,5 @@
-# lima directory, includes disk images
-_lima/
+/*
+/.**
 
-# unix sockets
-*.sock
-
-daemon.log
+!.gitignore
+!/_templates/

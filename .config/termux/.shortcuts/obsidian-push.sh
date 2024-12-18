@@ -18,7 +18,7 @@ DIALOG_CODE=$(echo ${RESULT} | jq '.code')
 
 if [ "${DIALOG_CODE}" = "-2" ]; then
   COMMIT_MESSAGE=$(echo ${RESULT} | jq '.text')
-else
+fi
 
 cd ~/storage/documents/Obsidian/my-obsidian-vault
 

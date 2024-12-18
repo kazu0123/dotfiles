@@ -22,6 +22,6 @@ fi
 
 cd ~/storage/documents/Obsidian/my-obsidian-vault
 
-git add.
+git add .
 git commit -m "${COMMIT_MESSAGE}"
 git push origin main

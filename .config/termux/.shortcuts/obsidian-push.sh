@@ -15,9 +15,14 @@ COMMIT_MESSAGE="vault backup from Pixel 8 at ${DATETIME}"
 RESULT=$(termux-dialog text -t "Enter commit message: " -i ${COMMIT_MESSAGE})
 
 DIALOG_CODE=$(echo ${RESULT} | jq '.code')
+RESULT_MESSAGE=$(echo ${RESULT} | jq '.text')
 
 if [ "${DIALOG_CODE}" = "-2" ]; then
-  COMMIT_MESSAGE=$(echo ${RESULT} | jq '.text')
+  exit 1
+fi
+
+if [ "${RESULT_MESSAGE}" != "" ]; then
+  COMMIT_MESSAGE=${RESULT_MESSAGE}
 fi
 
 cd ~/storage/documents/Obsidian/my-obsidian-vault

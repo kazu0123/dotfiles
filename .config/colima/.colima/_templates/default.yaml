@@ -57,7 +57,7 @@ network:
   # Assign reachable IP address to the virtual machine.
   # NOTE: this is currently macOS only and ignored on Linux.
   # Default: false
-  address: false
+  address: true
   
   # Custom DNS resolvers for the virtual machine.
   #
@@ -66,6 +66,7 @@ network:
   #
   # Default: []
   dns:
+    - 192.168.5.2
     - 1.1.1.1
     - 1.0.0.1
     - 2606:4700:4700::1111

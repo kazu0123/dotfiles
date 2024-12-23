@@ -12,7 +12,7 @@ DATETIME="$(echo $YEAR-$MONTH-$DAY $HOUR:$MINUTE:$SECOND)"
 # vault backup: {{hostname}}: {{date}}
 COMMIT_MESSAGE="vault backup from Pixel 8 at ${DATETIME}"
 
-RESULT=$(termux-dialog text -t "Enter commit message: " -i ${COMMIT_MESSAGE})
+RESULT=$(termux-dialog text -t "Enter commit message: " -i "${COMMIT_MESSAGE}")
 
 DIALOG_CODE=$(echo ${RESULT} | jq '.code')
 RESULT_MESSAGE=$(echo ${RESULT} | jq '.text')

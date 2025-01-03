@@ -78,7 +78,8 @@
         "ollama",
         "qwen",
         "starcoder",
-        "termux"
+        "termux",
+        "Xauthority"
     ],
     "go.toolsManagement.autoUpdate": true,
     "alive.lsp.startCommand": [

@@ -14,14 +14,14 @@ COMMIT_MESSAGE="vault backup from Pixel 8 at ${DATETIME}"
 
 RESULT=$(termux-dialog text -t "Enter commit message: " -i "${COMMIT_MESSAGE}")
 
-DIALOG_CODE=$(echo ${RESULT} | jq '.code')
-RESULT_MESSAGE=$(echo ${RESULT} | jq '.text')
+DIALOG_CODE=$(echo ${RESULT} | jq -r '.code')
+RESULT_MESSAGE=$(echo ${RESULT} | jq -r '.text')
 
 if [ "${DIALOG_CODE}" = "-2" ]; then
   exit 1
 fi
 
-if [ "${RESULT_MESSAGE}" != "" ]; then
+if [ -n "${RESULT_MESSAGE}" ]; then
   COMMIT_MESSAGE=${RESULT_MESSAGE}
 fi
 

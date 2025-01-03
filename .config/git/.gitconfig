@@ -9,3 +9,5 @@
 [core]
 	fsmonitor = true
 	untrackedcache = true
+[init]
+	defaultBranch = main

@@ -1,4 +1,4 @@
 pkg install termux-api
 pkg install jq
 
-ln -s ~/storage/documents/dotfiles/.config/termux/.shortcuts ~/.shortcuts
+ln -s /storage/emulated/0/Documents/dotfiles/.config/termux/.shortcuts ~/.shortcuts

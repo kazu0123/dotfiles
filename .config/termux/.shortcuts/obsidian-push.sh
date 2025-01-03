@@ -25,7 +25,7 @@ if [ "${RESULT_MESSAGE}" != "" ]; then
   COMMIT_MESSAGE=${RESULT_MESSAGE}
 fi
 
-cd ~/storage/documents/Obsidian/my-obsidian-vault
+cd /storage/emulated/0/Documents/Obsidian/my-obsidian-vault
 
 git add .
 git commit -m "${COMMIT_MESSAGE}"

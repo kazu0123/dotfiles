@@ -8,4 +8,8 @@
 !/.config/
 !/.config/**
 
+# application settings
+!/apps/
+!/apps/**
+
 .DS_Store

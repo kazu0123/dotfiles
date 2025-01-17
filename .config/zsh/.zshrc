@@ -41,3 +41,6 @@ export PATH=$PATH:$HOME/Library/Android/sdk/platform-tools
 
 eval "$(uv generate-shell-completion zsh)"
 eval "$(uvx --generate-shell-completion zsh)"
+
+# Added by LM Studio CLI tool (lms)
+export PATH="$PATH:/Users/kazuki/.cache/lm-studio/bin"

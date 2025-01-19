@@ -30,8 +30,8 @@
   ],
   "tabAutocompleteModel": {
     "apiBase": "http://localhost:1234/v1/",
-    "model": "starcoder2:3b",
-    "title": "starcoder2:3b",
+    "model": "starcoder2-7b",
+    "title": "starcoder2-7b",
     "provider": "lmstudio",
     "completionOptions": {
       "maxTokens": 2048

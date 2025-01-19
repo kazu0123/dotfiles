@@ -48,3 +48,4 @@ export PATH="$PATH:/Users/kazuki/.cache/lm-studio/bin"
 
 export PATH="/opt/homebrew/opt/bison/bin:$PATH"
 export PATH="/opt/homebrew/opt/flex/bin:$PATH"
+export PATH="/opt/homebrew/opt/llvm@19/bin:$PATH"

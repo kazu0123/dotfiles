@@ -12,4 +12,8 @@
 !/apps/
 !/apps/**
 
+# scripts
+!/scripts/
+!/scripts/**
+
 .DS_Store

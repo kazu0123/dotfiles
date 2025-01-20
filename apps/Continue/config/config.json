@@ -1,19 +1,17 @@
 {
   "models": [
     {
-      "apiBase": "http://localhost:1234/v1/",
-      "model": "llama-3.2-11b-vision-instruct",
-      "title": "Llama 3.2 11B LM Studio",
-      "provider": "lmstudio",
+      "model": "llama3.2-vision:11b",
+      "title": "Llama 3.2 11B Ollama",
+      "provider": "ollama",
       "completionOptions": {
         "maxTokens": 4096
       }
     },
     {
-      "apiBase": "http://localhost:1234/v1/",
-      "model": "llama-3.2-90b-vision-instruct",
-      "title": "Llama 3.2 90B LM Studio",
-      "provider": "lmstudio",
+      "model": "llama3.2-vision:90b",
+      "title": "Llama 3.2 90B Ollama",
+      "provider": "ollama",
       "completionOptions": {
         "maxTokens": 4096
       }

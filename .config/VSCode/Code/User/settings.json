@@ -98,4 +98,5 @@
     "editor.tabSize": 2,
     "workbench.editor.enablePreview": false,
     "hediet.vscode-drawio.resizeImages": null,
+    "editor.largeFileOptimizations": false,
 }

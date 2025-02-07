@@ -49,3 +49,6 @@ export PATH="$PATH:/Users/kazuki/.cache/lm-studio/bin"
 export PATH="/opt/homebrew/opt/bison/bin:$PATH"
 export PATH="/opt/homebrew/opt/flex/bin:$PATH"
 export PATH="/opt/homebrew/opt/llvm@19/bin:$PATH"
+
+
+export PKG_CONFIG_PATH=$(brew --prefix cairo)/lib/pkgconfig:$PKG_CONFIG_PATH

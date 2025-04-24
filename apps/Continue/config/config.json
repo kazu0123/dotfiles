@@ -24,6 +24,15 @@
       "completionOptions": {
         "maxTokens": 4096
       }
+    },
+    {
+      "apiBase": "http://localhost:1234/v1/",
+      "model": "tinyswallow-1.5b-instruct",
+      "title": "TinySwallow 1.5B LM Studio",
+      "provider": "lmstudio",
+      "completionOptions": {
+        "maxTokens": 4096
+      }
     }
   ],
   "tabAutocompleteModel": {
@@ -32,7 +41,7 @@
     "title": "starcoder2-7b",
     "provider": "lmstudio",
     "completionOptions": {
-      "maxTokens": 2048
+      "maxTokens": 4096
     }
   },
   "customCommands": [

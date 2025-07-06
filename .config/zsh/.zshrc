@@ -54,3 +54,14 @@ export PATH="$HOME/dotfiles/apps/nvm/scripts/macos:$PATH"
 
 
 export PKG_CONFIG_PATH=$(brew --prefix cairo)/lib/pkgconfig:$PKG_CONFIG_PATH
+
+# Gemini CLI wrapper to run with Node.js v20
+gemini() {
+  (
+    export NVM_DIR="$HOME/.nvm"
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+    nvm use 20 > /dev/null 2>&1
+    command gemini "$@"
+  )
+}
+

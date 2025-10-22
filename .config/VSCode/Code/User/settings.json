@@ -1,105 +1,117 @@
 {
-    "editor.suggest.showStatusBar": true,
-    "problems.showCurrentInStatus": true,
-    "workbench.startupEditor": "none",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb",
-        "*.ico": "imagePreview.previewEditor"
-    },
-    "tabnine.experimentalAutoImports": true,
-    "python.showStartPage": true,
-    "python.pythonPath": "C:\\Users\\kazuki\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
-    "update.showReleaseNotes": false,
-    "keyboard.dispatch": "keyCode",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "liveSassCompile.settings.formats": [
-        {
-            "format": "expanded",
-            "extensionName": ".css",
-            "savePath": null,
-            "savePathReplacementPairs": null
-        }
-    ],
-    "explorer.compactFolders": false,
-    "git.enableSmartCommit": true,
-    "git.autofetch": true,
-    "editor.copyWithSyntaxHighlighting": false,
-    "dart.flutterSdkPath": "/Users/kazuki/development/flutter",
-    "python.terminal.activateEnvInCurrentTerminal": true,
-    "[dart]": {
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "editor.rulers": [
-            80
-        ],
-        "editor.selectionHighlight": false,
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggestSelection": "first",
-        "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": "off"
-    },
-    "haskell.manageHLS": "GHCup",
-    "workbench.editorLargeFileConfirmation": 4096,
-    "[python]": {
-        "editor.formatOnType": true
-    },
-    "[plaintext]": {
-        "editor.unicodeHighlight.ambiguousCharacters": false,
-        "editor.unicodeHighlight.invisibleCharacters": false
-    },
-    "editor.accessibilitySupport": "off",
-    "terminal.integrated.defaultProfile.osx": "zsh",
-    "svelte.enable-ts-plugin": true,
-    "zig.zls.enabled": true,
-    "zig.zls.path": "/Users/kazuki/Library/Application Support/Code/User/globalStorage/ziglang.vscode-zig/zls_install/zls",
-    "zig.zigPath": "/Users/kazuki/Library/Application Support/Code/User/globalStorage/ziglang.vscode-zig/zig_install/zig",
-    "zig.zigVersion": "0.11.0",
-    "redhat.telemetry.enabled": true,
-    "dart.debugExternalPackageLibraries": false,
-    "dart.debugSdkLibraries": false,
-    "dev.containers.dockerComposePath": "docker compose",
-    "files.insertFinalNewline": true,
-    "typescript.updateImportsOnFileMove.enabled": "never",
-    "hexeditor.columnWidth": 32,
-    "hexeditor.showDecodedText": true,
-    "hexeditor.defaultEndianness": "little",
-    "hexeditor.inspectorType": "aside",
-    "cSpell.userWords": [
-        "contentful",
-        "devcontainer",
-        "fastapi",
-        "Hono",
-        "iconify",
-        "ollama",
-        "qwen",
-        "Rakuten",
-        "starcoder",
-        "supabase",
-        "termux",
-        "Xauthority"
-    ],
-    "go.toolsManagement.autoUpdate": true,
-    "alive.lsp.startCommand": [
-        "sbcl",
-        "--eval",
-        "(require :asdf)",
-        "--eval",
-        "(asdf:load-system :alive-lsp)",
-        "--eval",
-        "(alive/server:start)"
-    ],
-    "workbench.colorTheme": "Dracula Theme Soft",
-    "java.configuration.runtimes": [],
-    "editor.stickyScroll.enabled": false,
-    "editor.tabSize": 2,
-    "workbench.editor.enablePreview": false,
-    "hediet.vscode-drawio.resizeImages": null,
-    "editor.largeFileOptimizations": false,
-    "diffEditor.ignoreTrimWhitespace": false,
+  "editor.suggest.showStatusBar": true,
+  "problems.showCurrentInStatus": true,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb",
+    "*.ico": "imagePreview.previewEditor"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "python.showStartPage": true,
+  "python.pythonPath": "C:\\Users\\kazuki\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+  "update.showReleaseNotes": false,
+  "keyboard.dispatch": "keyCode",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": null,
+      "savePathReplacementPairs": null
+    }
+  ],
+  "explorer.compactFolders": false,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "editor.copyWithSyntaxHighlighting": false,
+  "dart.flutterSdkPath": "/Users/kazuki/development/flutter",
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "[dart]": {
     "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "haskell.manageHLS": "GHCup",
+  "workbench.editorLargeFileConfirmation": 4096,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[plaintext]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false
+  },
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "svelte.enable-ts-plugin": true,
+  "zig.zls.enabled": true,
+  "zig.zls.path": "/Users/kazuki/Library/Application Support/Code/User/globalStorage/ziglang.vscode-zig/zls_install/zls",
+  "zig.zigPath": "/Users/kazuki/Library/Application Support/Code/User/globalStorage/ziglang.vscode-zig/zig_install/zig",
+  "zig.zigVersion": "0.11.0",
+  "redhat.telemetry.enabled": true,
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "dev.containers.dockerComposePath": "docker compose",
+  "files.insertFinalNewline": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "hexeditor.columnWidth": 32,
+  "hexeditor.showDecodedText": true,
+  "hexeditor.defaultEndianness": "little",
+  "hexeditor.inspectorType": "aside",
+  "cSpell.userWords": [
+    "contentful",
+    "devcontainer",
+    "fastapi",
+    "Hono",
+    "iconify",
+    "kazu",
+    "ollama",
+    "qwen",
+    "Rakuten",
+    "starcoder",
+    "supabase",
+    "termux",
+    "Xauthority",
+    "zenid"
+  ],
+  "go.toolsManagement.autoUpdate": true,
+  "alive.lsp.startCommand": [
+    "sbcl",
+    "--eval",
+    "(require :asdf)",
+    "--eval",
+    "(asdf:load-system :alive-lsp)",
+    "--eval",
+    "(alive/server:start)"
+  ],
+  "java.configuration.runtimes": [],
+  "editor.stickyScroll.enabled": false,
+  "editor.tabSize": 2,
+  "workbench.editor.enablePreview": false,
+  "hediet.vscode-drawio.resizeImages": null,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.formatOnSave": true,
+  "cSpell.words": ["kazu0123"],
+  "editor.largeFileOptimizations": false,
+  "typescript.tsserver.maxTsServerMemory": 40960,
+  "deno.maxTsServerMemory": 40960,
+  "typescript.tsserver.nodePath": "node",
+  "editor.maxTokenizationLineLength": 1000000,
+  "editor.experimental.asyncTokenizationVerification": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "yaml.schemas": {
+    "file:///Users/kazuki/.vscode/extensions/continue.continue-1.3.21-darwin-arm64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ]
+  },
+  "docker.extension.enableComposeLanguageServer": false
 }

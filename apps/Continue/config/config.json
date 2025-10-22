@@ -17,7 +17,7 @@
       }
     },
     {
-      "apiBase": "http://localhost:1234/v1/",
+      "apiBase": "http://host.docker.internal:1234/v1/",
       "model": "qwen2.5-coder-32b-instruct",
       "title": "Qwen 2.5 32B LM Studio",
       "provider": "lmstudio",
@@ -26,17 +26,29 @@
       }
     },
     {
-      "apiBase": "http://localhost:1234/v1/",
+      "apiBase": "http://host.docker.internal:1234/v1/",
       "model": "tinyswallow-1.5b-instruct",
       "title": "TinySwallow 1.5B LM Studio",
       "provider": "lmstudio",
       "completionOptions": {
         "maxTokens": 4096
       }
+    },
+    {
+      "apiBase": "http://host.docker.internal:1235/v1/",
+      "title": "gpt-oss-20b",
+      "model": "openai/gpt-oss-20b",
+      "provider": "lmstudio"
+    },
+    {
+      "apiBase": "http://host.docker.internal:1235/v1/",
+      "title": "gpt-oss-120b",
+      "model": "openai/gpt-oss-120b",
+      "provider": "lmstudio"
     }
   ],
   "tabAutocompleteModel": {
-    "apiBase": "http://localhost:1234/v1/",
+    "apiBase": "http://host.docker.internal:1234/v1/",
     "model": "starcoder2-7b",
     "title": "starcoder2-7b",
     "provider": "lmstudio",
@@ -96,14 +108,14 @@
     }
   ],
   "embeddingsProvider": {
-    "apiBase": "http://localhost:1234/v1/",
+    "apiBase": "http://host.docker.internal:1234/v1/",
     "provider": "lmstudio",
     "model": "nomic-embed-text"
   },
   "reranker": {
     "name": "llm",
     "params": {
-      "modelTitle": "Llama 3.2 11B LM Studio"
+      "modelTitle": "gpt-oss-20b"
     }
   }
 }

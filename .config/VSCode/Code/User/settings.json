@@ -109,7 +109,7 @@
   "editor.experimental.asyncTokenizationVerification": true,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "yaml.schemas": {
-    "file:///Users/kazuki/.vscode/extensions/continue.continue-1.3.22-darwin-arm64/config-yaml-schema.json": [
+    "file:///Users/kazuki/.vscode/extensions/continue.continue-1.3.24-darwin-arm64/config-yaml-schema.json": [
       ".continue/**/*.yaml"
     ]
   },
